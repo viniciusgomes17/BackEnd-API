@@ -1,0 +1,22 @@
+{
+  "name": "desafio3-backend",
+  "version": "1.0.0",
+  "prisma": {
+    "databases": {
+      "db": {
+        "provider": "sqlite",
+        "url": "file:./prisma/dev.db"
+      }
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "node src/sever.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "prisma": "^6.19.0"
+  }
+}
